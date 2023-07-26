@@ -1,5 +1,10 @@
 Simple FFmpeg binding for python, mainly created for personal use.
 
+## Installation using pip
+```bash
+pip install ffmpeg-py
+```
+
 Example:
 ```python
 from FFmpeg.ffmpeg import FFmpeg
@@ -24,3 +29,10 @@ ff = (
 code, stdout, stderr = ff.execute(stderr=subprocess.STDOUT, shell=False)
 print(code, stdout, stderr)
 ```
+
+## INFO
+
+- FFmpeg.ffmpeg.FFmpeg() - Main class, contains logic for executing command using subprocess
+- FFmpeg.ffmpegCommandBuilder.FFmpegCommandBuilder() - Class for building ffmpeg command, contains all methods for ffmpeg filters, codecs and other options
+
+
