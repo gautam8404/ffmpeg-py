@@ -1,4 +1,4 @@
-Simple FFmpeg binding for python, mainly created for personal use.
+Simple FFmpeg binding for python, mainly created for personal use. But i do plant to modify it for professional use.
 
 ## Installation using pip
 ```bash
